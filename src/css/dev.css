@@ -1,0 +1,80 @@
+.incidentBoxLink{
+    position: relative;
+    margin-bottom: 20px!important;
+    display: block!important;
+    float:left;
+}
+
+.incidentBox{
+    border: 1px solid #f9f9f9!important;
+    padding: 20px!important;
+    min-height: 30vh;
+}
+
+.bg-grey-400{
+    padding: 10px;
+    background: #efefef;
+    font-size: 10px!important;
+}
+
+
+.firstContentBox{
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.shortDesc{
+    font-size: 1.875rem!important;
+    line-height: normal!important;
+}
+
+.createdBox{
+    margin-bottom: 10px!important;
+}
+
+.descContent{
+    margin-bottom: 10px;
+}
+
+
+#incident-container .bg-yellow-800{
+    background-color: #c9c916!important;
+
+}
+
+#incident-container .text-yellow-800{
+    color: #c9c916!important;
+    
+}
+
+@media (min-width: 350px){
+    .incidentBox{
+        min-height: 20vh;
+    }  
+    .buttonsBelow{
+        position: relative;
+    }
+
+    .shortDesc{
+        font-size: 1.575rem!important;
+        line-height: normal!important;
+    }
+}
+
+@media (min-width: 1024px){
+    .incidentBox{
+        min-height: 30vh;
+    }
+    .buttonsBelow{
+        position: absolute;
+        bottom: 20px;
+        width: 80%;
+        font-size: 10px!important;
+    }
+    .shortDesc{
+        font-size: 1.575rem!important;
+        line-height: normal!important;
+    }
+    
+}
+

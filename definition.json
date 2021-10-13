@@ -1,0 +1,21 @@
+{
+  "pluginId": "my-incidents-studentportal_devchris",
+  "extensions": [
+    {
+      "area": "Page",
+      "componentName": "App",
+      "route": "incidents",
+      "navigationNode": {
+        "label": "Helpdesk",
+        "translations": {
+          "de": "Hallo Welt Plugin"
+        },
+        "iconName": "Help"
+      }
+    }
+  ],
+  "settings": {
+    "greetingLabel": "Welcome!",
+    "fontColor": "yellow"
+  }
+}

@@ -21,7 +21,7 @@ const queryClient = new QueryClient({
     },
   },
 });
-
+//console.log
 export function App() {
   const match = useRouteMatch();
 
